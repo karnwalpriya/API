@@ -2,37 +2,67 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.active{
+  color: blue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.recover{
+  color: green;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.cases{
+  color: red;
+}
+
+.tcases{
+  color: #8b0000;
+}
+
+.deaths{
+  color: rgb(23, 26, 14);
+}
+
+.tdeaths{
+  color: blueviolet;
+}
+
+.country{
+  font-weight: bold;
+  background-color: #707070;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.hcountry{
+  background-color:#707070;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.htdeaths{
+  background-color: rgb(138,43,226,0.2);
+  color: rgb(138,43,226);
 }
+
+.hdeaths{
+  background-color: rgb(23, 26, 14,0.2);
+  color: black;
+}
+
+.hcases{
+  background-color: rgb(255,0,0,0.2);
+  color:red ;
+}
+
+.htcases{
+  background-color: rgb(139,0,0,0.2);
+}
+
+.hrecover{
+  background-color: rgb(0,255,0,0.2);
+  color: rgb(0,128,0);
+}
+
+.hactive{
+  background-color: rgb(0,0,255,0.2);
+  color: #0000ff;
+}
+
